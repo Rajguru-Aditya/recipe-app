@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Lobster&family=Ubuntu&display=swap');
+.recipe {
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgb(71, 71, 71);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    min-width: 40%;
+    max-width: 40%;
+    padding: 10px;
+}
+
+.ingredients {
+    color: rgb(85, 85, 85);
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.name {
+    font-family: 'Lobster', cursive;
+    font-size: 3rem;
+    font-weight: normal;
+}
+
+.singleIngredient {
+    margin: 10px 5px;
+    font-size: 20px;
+}
+
+.image {
+    border-radius: 20%;
+    box-shadow: 0px 5px 10px rgb(146, 146, 146);
+    margin-bottom: 10px;
+}
+
+.calories {
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.4rem;
+}
+
+@media(max-width: 995px) {
+    .recipe {
+        min-width: 70%;
+    }
+}
